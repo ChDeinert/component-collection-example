@@ -1,0 +1,33 @@
+{
+  "name": "component-collection-example",
+  "version": "1.0.0",
+  "description": "Example for how to build an collection of react components",
+  "main": "/lib",
+  "author": "ChDeinert <ChDeinert@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "rm -rf ./lib && babel ./src --out-dir ./lib --source-maps --plugins babel-plugin-add-module-exports --ignore \"**/story.js,**/*test.js\"",
+    "start": "start-storybook -p 8080",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^19.0.2",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  },
+  "peerDependencies": {
+    "react": "15.5.0",
+    "react-dom": "15.5.0"
+  },
+  "jest": {
+    "roots": ["<rootDir>/src"]
+  }
+}
