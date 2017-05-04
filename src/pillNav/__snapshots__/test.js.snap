@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  style={
+    Object {
+      "display": "block",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "listStyleType": "none",
+      "margin": 0,
+      "padding": 0,
+    }
+  }
+>
+  <li
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "listStyleType": "none",
+        "marginLeft": "2px",
+        "position": "relative",
+      }
+    }
+  >
+    <a
+      href="#"
+      onClick={undefined}
+      style={
+        Object {
+          "border": "1px solid rgb(200, 200, 200)",
+          "borderBottomLeftRadius": "4px",
+          "borderBottomRightRadius": "4px",
+          "borderTopLeftRadius": "4px",
+          "borderTopRightRadius": "4px",
+          "boxSizing": "borderBox",
+          "color": "rgb(51, 122, 183)",
+          "cursor": "auto",
+          "display": "block",
+          "fontFamily": "\\"Helvetica Neue\\", Helvetica, Arial, sansSerif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "listStyleImage": "none",
+          "listStylePosition": "outside",
+          "listStyleType": "none",
+          "paddingBottom": "10px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "paddingTop": "10px",
+          "position": "relative",
+          "textAlign": "left",
+          "textDecorationColor": "rgb(51, 122, 183)",
+          "textDecorationLine": "none",
+          "textDecorationStyle": "solid",
+          "textSizeAdjust": "100%",
+        }
+      }
+    >
+      Hello Pill
+    </a>
+  </li>
+  <li
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "listStyleType": "none",
+        "marginLeft": "2px",
+        "position": "relative",
+      }
+    }
+  >
+    <a
+      href="#"
+      onClick={undefined}
+      style={
+        Object {
+          "border": "1px solid rgb(200, 200, 200)",
+          "borderBottomLeftRadius": "4px",
+          "borderBottomRightRadius": "4px",
+          "borderTopLeftRadius": "4px",
+          "borderTopRightRadius": "4px",
+          "boxSizing": "borderBox",
+          "color": "rgb(51, 122, 183)",
+          "cursor": "auto",
+          "display": "block",
+          "fontFamily": "\\"Helvetica Neue\\", Helvetica, Arial, sansSerif",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "listStyleImage": "none",
+          "listStylePosition": "outside",
+          "listStyleType": "none",
+          "paddingBottom": "10px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "paddingTop": "10px",
+          "position": "relative",
+          "textAlign": "left",
+          "textDecorationColor": "rgb(51, 122, 183)",
+          "textDecorationLine": "none",
+          "textDecorationStyle": "solid",
+          "textSizeAdjust": "100%",
+        }
+      }
+    >
+      😀 😎 👍 💯
+    </a>
+  </li>
+</ul>
+`;
