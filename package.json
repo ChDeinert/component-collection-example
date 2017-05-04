@@ -1,6 +1,6 @@
 {
   "name": "component-collection-example",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Example for how to build an collection of react components",
   "main": "./lib",
   "author": "ChDeinert <ChDeinert@gmail.com>",
