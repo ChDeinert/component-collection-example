@@ -5,6 +5,10 @@
   "main": "./lib",
   "author": "ChDeinert <ChDeinert@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChDeinert/component-collection-example.git"
+  },
   "scripts": {
     "dist": "rm -rf ./lib && babel ./src --out-dir ./lib --source-maps --plugins babel-plugin-add-module-exports --ignore \"**/story.js,**/*test.js\"",
     "start": "start-storybook -p 8080",
