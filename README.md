@@ -17,6 +17,10 @@ The components in this Project are examples provided by react-storybook.
 Run `npm test` or `yarn test`.  
 If you want the tests run automatically on codechange start tests with `npm test -- --watch` or `yarn test -- --watch`
 
+### Linting
+
+This project uses [prettier](https://github.com/prettier/prettier) so to check that your code is neatly formatted simply run `npm run prettify` or `yarn prettify`. Your code will be formatted if needed.
+
 ### Release
 
 The code needs to be compiled before usage in other projects. For this run `npm run dist` or `yarn dist`.  
