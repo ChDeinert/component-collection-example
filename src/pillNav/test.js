@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import PillNav from './';
-import {Pill} from '../';
+import { Pill } from '../';
 
 const pills = [
   <Pill key="1">Hello Pill</Pill>,
-  <Pill key="2">😀 😎 👍 💯</Pill>
+  <Pill key="2">😀 😎 👍 💯</Pill>,
 ];
 
 it('renders correctly', () => {
