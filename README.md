@@ -26,3 +26,9 @@ This project uses [prettier](https://github.com/prettier/prettier) so to check t
 The code needs to be compiled before usage in other projects. For this run `npm run dist` or `yarn dist`.  
 This will compile your components into the `/lib` folder. To create a new release from that commit and push this Folder. Don't forget to update the version inside `package.json` and to update `CHANGELOG`.  
 After this is done, add a git-tag with the version number.
+
+## Installation in another Project
+
+This *Package* is not published on npm. If you want to try and install it inside another Project you have to install with the git/https path like `npm install git+https://git@github.com:ChDeinert/component-collection-example.git`.  
+To use the components simply import the one you need like  
+e.g. `import { Button } from 'component-collection-example';`.
