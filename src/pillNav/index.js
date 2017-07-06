@@ -10,11 +10,10 @@ const navStyles = {
   padding: 0,
 };
 
-const PillNav = ({ children }) => (
+const PillNav = ({ children }) =>
   <ul style={navStyles}>
     {children}
-  </ul>
-);
+  </ul>;
 
 PillNav.propTypes = {
   children: PropTypes.array.isRequired,

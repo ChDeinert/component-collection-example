@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Welcome renders correctly 1`] = `
 <div
   style={
     Object {
@@ -35,8 +35,7 @@ exports[`renders correctly 1`] = `
     >
       src/stories
     </code>
-     
-    directory.
+     directory.
     <br />
     A story is a single state of one or more UI components. You can have as many stories as you want.
     <br />
@@ -60,8 +59,7 @@ exports[`renders correctly 1`] = `
       stories
     </a>
      
-    for a component called
-     
+    for a component called 
     <code
       style={
         Object {

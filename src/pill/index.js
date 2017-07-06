@@ -38,13 +38,12 @@ const linkStyle = {
   textSizeAdjust: '100%',
 };
 
-const Pill = ({ children, onClick }) => (
+const Pill = ({ children, onClick }) =>
   <li style={pillStyle}>
     <a style={linkStyle} href="#" onClick={onClick}>
       {children}
     </a>
-  </li>
-);
+  </li>;
 
 Pill.propTypes = {
   children: PropTypes.string.isRequired,
