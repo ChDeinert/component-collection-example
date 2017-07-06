@@ -15,7 +15,8 @@ The components in this Project are examples provided by react-storybook.
 ### Testing
 
 Run `npm test` or `yarn test`.  
-If you want the tests run automatically on codechange start tests with `npm test -- --watch` or `yarn test -- --watch`
+If you want the tests run automatically on codechange start tests with `npm test:watch` or `yarn test:watch`
+If you want a coverage report, start tests with `npm test:coverage` or `yarn test:coverage`
 
 ### Linting
 
