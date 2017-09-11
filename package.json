@@ -1,8 +1,8 @@
 {
   "name": "component-collection-example",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Example for how to build an collection of react components",
-  "main": "./lib",
+  "main": "index.js",
   "author": "ChDeinert <ChDeinert@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "git@github.com:ChDeinert/component-collection-example.git"
   },
   "scripts": {
-    "release": "npm run release:clean && npm run release:compile && npm run release:copy",
+    "release": "npm run release:clean && npm run release:compile && npm run release:copy && npm run release:publish",
     "release:clean": "rimraf ./_lib",
     "release:compile": "babel ./src --out-dir ./_lib --source-maps --plugins babel-plugin-add-module-exports --ignore \"**/story.js,**/*test.js\"",
     "release:copy": "cpx CHANGELOG ./_lib && cpx LICENSE ./_lib && cpx package.json ./_lib && cpx README.md ./_lib",
