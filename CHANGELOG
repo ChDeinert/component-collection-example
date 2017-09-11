@@ -1,0 +1,21 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+### Updated
+- All dependencies
+
+## [1.1.0] - 2017-05-05
+### Added
+- Prettier in development to keep the code nice
+- Pill & PillNav component for more examples
+
+### Fixed
+- Wrong npm-main folder that prevented usage in other projects
+
+## [1.0.1] - 2017-04-09
+### Fixed
+- Removed usage of deprecated React functions

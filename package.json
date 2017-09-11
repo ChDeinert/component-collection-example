@@ -1,0 +1,51 @@
+{
+  "name": "component-collection-example",
+  "version": "1.1.0",
+  "description": "Example for how to build an collection of react components",
+  "main": "./lib",
+  "author": "ChDeinert <ChDeinert@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChDeinert/component-collection-example.git"
+  },
+  "scripts": {
+    "dist": "npm run dist:clean && npm run dist:compile",
+    "dist:clean": "rimraf ./_lib",
+    "dist:compile": "babel ./src --out-dir ./_lib --source-maps --plugins babel-plugin-add-module-exports --ignore \"**/story.js,**/*test.js\"",
+    "dist:copy": "cpx CHANGELOG ./_lib && cpx LICENSE ./_lib && cpx package.json ./_lib && cpx README.md ./_lib",
+    "prettify": "prettier --single-quote --tab-width 2 --trailing-comma es5 --write \"src/**/*.js\" ",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "start-storybook -p 8080"
+  },
+  "devDependencies": {
+    "@storybook/addon-knobs": "^3.2.8",
+    "@storybook/addon-storyshots": "^3.2.8",
+    "@storybook/react": "^3.2.8",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cpx": "^1.5.0",
+    "jest": "^21.0.2",
+    "prettier": "^1.6.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "rimraf": "^2.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15",
+    "react-dom": "^15"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src",
+      "<rootDir>/.storybook"
+    ]
+  }
+}
